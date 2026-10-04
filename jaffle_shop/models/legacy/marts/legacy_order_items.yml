@@ -1,5 +1,5 @@
 models:
-  - name: order_items
+  - name: legacy_order_items
     columns:
       - name: order_item_id
         data_tests:

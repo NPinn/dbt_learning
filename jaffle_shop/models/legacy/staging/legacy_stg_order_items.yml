@@ -1,5 +1,5 @@
 models:
-  - name: stg_order_items
+  - name: legacy_stg_order_items
     description: Individual food and drink items that make up our orders, one row per item.
     columns:
       - name: order_item_id
@@ -13,5 +13,5 @@ models:
           - not_null
           - relationships:
               arguments:
-                to: ref('stg_orders')
+                to: ref('legacy_stg_orders')
                 field: order_id
