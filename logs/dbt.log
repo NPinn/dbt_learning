@@ -138,3 +138,18 @@ select 1 as id
 16:37:53.198602 [info ]: 
 ==================== Execution Summary =====================
 Finished 'init' successfully for target 'dev' [4.2s]
+==================== 2026-10-06T18:28:22.781476Z | 01a11279-5062-70a3-b749-f919e6f71d25 ====================
+18:28:22.787066 [info ]: Installing dbt project and profile setup
+18:28:22.794217 [info ]: Warning Directory 'jaffle_shop' already exists, using 'jaffle_shop_1' instead
+18:28:22.833198 [info ]: Info Created .vscode/extensions.json with dbt extension recommendation
+18:28:22.834390 [info ]: Success Project created successfully!
+18:28:22.834679 [info ]: Info Project name: jaffle_shop_1
+18:28:22.834793 [info ]: Info Project directory: jaffle_shop_1
+18:28:27.495823 [info ]: Info Skipping profile setup.
+18:28:27.496525 [info ]: Validating profile inputs, adapters, and connection
+
+18:28:27.497214 [info ]: dbt 2.0.6
+18:28:27.501428 [error]: [OperationCanceled (dbt8995)]: Operation cancelled
+18:28:27.536598 [info ]: 
+==================== Execution Summary =====================
+Finished 'init' with 1 error [4.8s]
