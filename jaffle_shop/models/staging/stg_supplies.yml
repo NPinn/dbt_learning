@@ -1,5 +1,5 @@
 models:
-  - name: legacy_stg_supplies
+  - name: stg_supplies
     description: >
       List of our supply expenses data with basic cleaning and transformation applied.
 

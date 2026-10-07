@@ -2,26 +2,26 @@ with
 
 order_items as (
 
-    select * from {{ ref('legacy_stg_order_items') }}
+    select * from {{ ref('stg_order_items') }}
 
 ),
 
 
 orders as (
 
-    select * from {{ ref('legacy_stg_orders') }}
+    select * from {{ ref('stg_orders') }}
 
 ),
 
 products as (
 
-    select * from {{ ref('legacy_stg_products') }}
+    select * from {{ ref('stg_products') }}
 
 ),
 
 supplies as (
 
-    select * from {{ ref('legacy_stg_supplies') }}
+    select * from {{ ref('stg_supplies') }}
 
 ),
 

@@ -1,11 +1,11 @@
 with all_values as (
 
     select
-        status as value_field,
+        order_status as value_field,
         count(*) as n_records
 
     from analytics.analytics_prod.stg_jaffle_shop__orders
-    group by status
+    group by order_status
 
 )
 

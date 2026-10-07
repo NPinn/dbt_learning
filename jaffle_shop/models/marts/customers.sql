@@ -8,7 +8,7 @@ customers as (
 
 orders as (
 
-    select * from {{ ref('legacy_orders') }}
+    select * from {{ ref('stg_orders') }}
 
 ),
 
