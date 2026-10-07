@@ -1,6 +1,6 @@
 -- Import CTEs
 with customers as (
-  select * from {{ ref('stg_customers') }}
+  select * from {{ ref('stg_jaffle_shop__customers') }}
 ),
 
 paid_orders as (
