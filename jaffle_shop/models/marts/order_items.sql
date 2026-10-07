@@ -43,7 +43,7 @@ joined as (
     select
         order_items.*,
 
-        orders.order_date,
+        orders.ordered_at,
 
         products.product_name,
         products.product_price,

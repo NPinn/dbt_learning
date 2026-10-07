@@ -4,7 +4,7 @@ with customers as (
 ),
 
 paid_orders as (
-  select * from {{ ref('int_orders') }}
+  select * from {{ ref('int_jaffle_shop__orders') }}
 ),
 
 -- Final CTE
