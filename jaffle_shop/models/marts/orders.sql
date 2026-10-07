@@ -2,13 +2,13 @@ with
 
 orders as (
 
-    select * from {{ ref('legacy_stg_orders') }}
+    select * from {{ ref('stg_orders') }}
 
 ),
 
 order_items as (
 
-    select * from {{ ref('legacy_order_items') }}
+    select * from {{ ref('order_items') }}
 
 ),
 
