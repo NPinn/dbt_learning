@@ -1,5 +1,5 @@
 models:
-  - name: fct_orders
+  - name: fct_jaffle_shop__orders
     config:
       contract:
         enforced: true
