@@ -14,9 +14,9 @@ models:
       - name: customer_id
         data_type: varchar
       - name: order_total
-        data_type: number(28,2)
+        data_type: number(16,2)
       - name: tax_paid
-        data_type: number(28,2)
+        data_type: number(16,2)
       - name: ordered_at
         data_type: date
       - name: customer_name
@@ -28,11 +28,11 @@ models:
       - name: location_opened_at
         data_type: date
       - name: ordered_month
-        data_type: number(38,0)
+        data_type: number(2,0)
       - name: ordered_day
-        data_type: number(38,0)
+        data_type: number(2,0)
       - name: ordered_year
-        data_type: number(38,0)
+        data_type: number(4,0)
     versions: ###Add versioning section defining each version and listing changes to contract
       - v: 1
           ##Matches above! Nothing more needed
