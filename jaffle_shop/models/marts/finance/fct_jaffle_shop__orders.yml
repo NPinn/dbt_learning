@@ -14,3 +14,7 @@ models:
         data_type: date
       - name: amount
         data_type: number(28,2)
+        data_tests:
+          - average_dollars_spent_greater_than_one:
+              arguments:
+                group_by_column: customer_id
